@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Generated PDFs (remove this line to track PDFs in git)
+*.pdf
