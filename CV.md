@@ -1,84 +1,140 @@
-# Your Name
+# Alvian Rahman Hanif
 
-**Software Engineer**
+**Backend Engineer · Tech Lead @ PasarPolis Indonesia**
 
-📧 your.email@example.com · 📱 +1-234-567-8900 · 📍 City, Country  
-🔗 [github.com/yourusername](https://github.com/yourusername) · [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+📧 alvian.hanif@pasarpolis.com · 📱 +62-821-1484-0131 · 📍 Depok, West Java, Indonesia  
+🔗 [linkedin.com/in/vianhanif](https://www.linkedin.com/in/vianhanif) · [github.com/vianhanif](https://github.com/vianhanif)
 
 ---
 
 ## Professional Summary
 
-Results-driven Software Engineer with [X] years of experience building scalable systems, optimizing performance, and delivering high-quality products. Specialized in [your domain: backend/frontend/full-stack/DevOps/etc.]. Proven track record of [key achievement or focus area].
+Backend engineer specializing in insurtech — 6+ years building Golang & Python microservices on AWS/GCP for large-scale partner ecosystems (Gojek, Shopee, Lazada, ~30+ partners). Experience spans dynamic product configuration, multi-year policy engines, insurer API integrations, and commission platforms. Led the policy-side of a company-wide GCP→AWS migration (~15 microservices). Lead a squad owning production reliability, platform rollouts, and AI-assisted development tooling (playbook, environment bootstrap, internal CLIs).
 
 ---
 
 ## Technical Skills
 
-**Languages:** JavaScript/TypeScript, Python, Go, Java, [add yours]  
-**Frameworks & Libraries:** React, Node.js, Express, Django, Spring Boot, [add yours]  
-**Cloud & DevOps:** AWS (EC2, S3, Lambda), Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, GitLab CI)  
-**Databases:** PostgreSQL, MySQL, MongoDB, Redis  
-**Tools & Platforms:** Git, Linux, Grafana, Prometheus, ELK Stack
+**Languages:** Go (Golang), Python  
+**Frameworks & Libraries:** Django, Celery  
+**Cloud & DevOps:** AWS (SNS, SQS, S3), GCP (Pub/Sub, GCS, BigQuery), Kubernetes, Docker, Airflow, CircleCI  
+**Databases:** PostgreSQL, Redis, Google BigQuery  
+**Tools & Platforms:** Git, Linux, Playwright
 
 ---
 
 ## Professional Experience
 
-### **Senior Software Engineer** | Company Name | City, Country  
-*Jan 2023 – Present*
+### **Tech Lead** | PasarPolis | Jakarta, Indonesia  
+*Jan 2026 – Present (10 months)*
 
-- Architected and deployed a microservices platform serving 1M+ daily users, reducing latency by 40%
-- Led migration from monolith to event-driven architecture using Kafka, improving system resilience
-- Mentored team of 5 engineers, established code review standards and improved test coverage to 85%
-- Optimized database queries and implemented caching strategies, reducing API response time by 60%
+Team: squad of 3–5 engineers
 
-### **Software Engineer** | Previous Company | City, Country  
-*Jun 2020 – Dec 2022*
+- Leading a squad of 3–5 engineers through a company-wide GCP→AWS migration across ~15 microservices: Pub/Sub→SNS/SQS, GCS→S3.
+- Drive developer-experience and AI-tooling initiatives: Kubernetes multi-pod log CLI, provider-agnostic MR review CLI, shared API test collections.
+- Authored the team engineering playbook and built a one-command bootstrap for AI-assisted development setup.
+- Driving the Playwright E2E test suite — FE initiated the setup, then transitioned ownership to QA.
+- Maintain architecture communications and alignments between stakeholders, leveraged with AI-assisted documentation.
 
-- Developed RESTful APIs and backend services for e-commerce platform handling $10M+ annual revenue
-- Implemented automated testing pipeline reducing production bugs by 50%
-- Collaborated with product and design teams to deliver features on tight deadlines
-- Built internal tooling for monitoring and observability using Grafana and Prometheus
+### **Senior Software Engineer** | PasarPolis | Indonesia  
+*Aug 2021 – Dec 2025 (4 years 5 months)*
 
-### **Junior Software Engineer** | Startup Name | City, Country  
-*Jan 2019 – May 2020*
+- **PPIB team** — scaled partner reporting to ~30 partners; re-architected document-gen pipeline (Celery, Redis, per-partner queues, Kubernetes autoscaling); built dynamic product configuration system replacing per-product hardcoding; partnered with the claims team on automation for Shopee VN/SG, Tiki, and Kredivo.
+- **Agency team** — built the agent commission platform spanning 3 services (pay-later windows, dynamic commission engine, Tokio Marine rules, double-deduction prevention); re-architected policy callback flow (REST→Pub/Sub) and fixed production issues (Redis hang, auth-pin deadlocks).
+- **AUS team** — led core policy platform refactoring: multi-year policy support, addon/rider system, dynamic premium calculation, and product import/export; integrated with the vendor-based insurance backend (CARE) used by the operational team; extended IAM/integration layer (Django); stabilized addon premium configuration UI.
 
-- Built features for SaaS product using React, Node.js, and PostgreSQL
-- Contributed to infrastructure automation using Docker and Terraform
-- Participated in agile sprints and daily standups
+### **Software Engineer** | PasarPolis | Indonesia  
+*Jan 2020 – Aug 2021 (1 year 8 months)*
+
+Team: PPIB (under a tech lead)
+
+- Onboarded new insurance products end-to-end in the core policy service: built each product in the core codebase, shared API contracts with 3rd-party partners (or wired them through the internal bulk-upload panel), and configured the per-product reporting pipeline.
+- Delivered 30+ Airflow/BigQuery reporting pipelines for Gojek, Lazada, and DANA product launches — including COVID-19 protection product reporting. (Airflow platform maintained by the data-science team.)
+- Developed core APIs for the document generation service, powering policy document creation.
+
+### **Full Stack Engineer** | AIMSIS | Jl. Batu Tulis, Jakarta Barat  
+*Sep 2019 – Dec 2019 (4 months)*
+
+Contributed to maintaining a number of products related to a school management platform.
+
+- Helped develop the AIMSIS 1.0 prototype, as a means to revamp the then-current version that was still duplicated for each school.
+- Maintained the Student Registration system (PSB – Pendaftaran Siswa Baru).
+- Developed new features & maintained the E-Library platform.
+- Refactored code structure for better management.
+- Implemented unit testing for APIs.
+- Reconstructed the API deployment process from a traditional Linux service into a Docker container.
+- Implemented CircleCI jobs to automate testing and deployment.
+
+### **Software Engineer** | PT Payfazz Teknologi Nusantara | Greater Jakarta Area, Indonesia  
+*Feb 2019 – Sep 2019 (8 months)*
+
+- Developed back-end services in various forms (APIs, workers, event-bus, etc.).
+- Tech used: Golang, PostgreSQL, Redis, Google Pub/Sub.
+
+### **Frontend Engineer** | PT. Dinamika Mitra Sukses Makmur (DMSUM) | Greater Jakarta Area, Indonesia  
+*Apr 2017 – Mar 2018 (1 year)*
+
+- Developed and maintained web applications for DMSUM products, e.g. Mentimun and Mentimun Pay (available on Play Store).
 
 ---
 
-## Notable Projects
+## Personal Projects
 
-### **[Project Name]** | [GitHub link]
-Open-source [brief description]. Built with [tech stack]. [Key metric or achievement: 500+ stars, featured in X, etc.]
+### **9Router** | [github.com/vianhanif/9router](https://github.com/vianhanif/9router)
+AI Router & Token Saver — connects 40+ AI providers & 100+ models with RTK token optimization (save 20-40% tokens), auto-fallback, and quota management. Deployed on npm, Docker, and GHCR. Active contributor & maintainer of upstream fork.
 
-### **[Personal Project]** | [GitHub link]
-[Brief description]. Technologies: [list]. [Impact or learning outcome].
+### **9Router API** | [github.com/vianhanif/9router-api](https://github.com/vianhanif/9router-api)
+Lightweight LLM API server (~100-150MB footprint) as an alternative to the full 9Router Next.js dashboard. Syncs with 9Router core releases.
+
+### **9Router Deploy** | [github.com/vianhanif/9router-deploy](https://github.com/vianhanif/9router-deploy)
+Production Docker Compose stack for self-hosting 9Router with Cloudflare Tunnel ingress and automated CI/CD deploys to Tencent Cloud VPS.
+
+### **git-review-cli** | [github.com/vianhanif/git-review-cli](https://github.com/vianhanif/git-review-cli)
+Provider-agnostic MR/PR review CLI for GitLab, GitHub, and Gitea. Integrated into internal development workflows. Available on PyPI.
+
+### **kubectl-multi-logs** | [github.com/vianhanif/kubectl-multi-logs](https://github.com/vianhanif/kubectl-multi-logs)
+Tail logs from multiple Kubernetes pods simultaneously with real-time streaming and Homebrew-style progress display. Used internally for platform debugging.
+
+### **opencode-tree** | [github.com/vianhanif/opencode-tree](https://github.com/vianhanif/opencode-tree)
+Isolated development environments via git worktree + tmux for OpenCode agent sessions — clean context switching without stashing or branch conflicts.
+
+### **opencode-session-viewer** | [github.com/vianhanif/opencode-session-viewer](https://github.com/vianhanif/opencode-session-viewer)
+CLI tool to inspect OpenCode session metadata from the local SQLite database. Built in Go.
+
+### **local-tunnel** | [github.com/vianhanif/local-tunnel](https://github.com/vianhanif/local-tunnel)
+Production-grade HTTPS tunnel for local AI model servers — expose your local models to the internet securely.
+
+### **mac-cleanup-go** | [github.com/vianhanif/mac-cleanup-go](https://github.com/vianhanif/mac-cleanup-go)
+macOS maintenance tool in Go for identifying performance bottlenecks and safely cleaning long-lived system cruft.
 
 ---
 
 ## Education
 
-**Bachelor of Science in Computer Science** | University Name | City, Country  
-*2015 – 2019*
+**SARMAG (Sarjana & Magister), Computer Science** | Universitas Gunadarma | Indonesia  
+*2012 – 2017*
 
-- GPA: [X.XX/4.0] (optional)
-- Relevant coursework: Data Structures, Algorithms, Distributed Systems, Database Management
+- Recipient of the SarMag (Sarjana & Magister) Scholarship.
+
+**Science** | SMA Lazuardi GIS | Indonesia  
+*2009 – 2012*
+
+**SMPN 4 Depok** | Indonesia  
+*2006 – 2009*
+
+**SD Yaspen Tugu Ibu Depok** | Indonesia  
+*2000 – 2006*
 
 ---
 
-## Certifications
+## Honors & Awards
 
-- AWS Certified Solutions Architect – Associate | Amazon Web Services | 2023
-- [Add your certifications here]
+- **SarMag (Sarjana & Magister) Scholarship**
 
 ---
 
 ## Languages
 
-- **English:** Fluent
-- **[Your native language]:** Native
-- **[Other language]:** Conversational
+- **Indonesian:** Native or Bilingual
+- **English:** Professional Working
+- **Korean:** Elementary
