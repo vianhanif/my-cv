@@ -2,14 +2,14 @@
 
 **Backend Engineer · Tech Lead @ PasarPolis Indonesia**
 
-📧 alvian.hanif@pasarpolis.com · 📱 +62-821-1484-0131 · 📍 Depok, West Java, Indonesia  
+📧 alvian524@gmail.com · 📱 +62-821-1484-0131 · 📍 Depok, West Java, Indonesia  
 🔗 [linkedin.com/in/vianhanif](https://www.linkedin.com/in/vianhanif) · [github.com/vianhanif](https://github.com/vianhanif)
 
 ---
 
 ## Professional Summary
 
-Backend engineer specializing in insurtech — 6+ years building Golang & Python microservices on AWS/GCP for large-scale partner ecosystems (Gojek, Shopee, Lazada, ~30+ partners). Experience spans dynamic product configuration, multi-year policy engines, insurer API integrations, and commission platforms. Led the policy-side of a company-wide GCP→AWS migration (~15 microservices). Lead a squad owning production reliability, platform rollouts, and AI-assisted development tooling (playbook, environment bootstrap, internal CLIs).
+Backend engineer and Tech Lead with 6+ years in insurtech, building Golang & Python microservices on AWS/GCP for large-scale partner ecosystems (Gojek, Shopee, Lazada). Lead a squad owning production reliability and AI-assisted developer tooling.
 
 ---
 
@@ -18,7 +18,7 @@ Backend engineer specializing in insurtech — 6+ years building Golang & Python
 **Languages:** Go (Golang), Python  
 **Frameworks & Libraries:** Django, Celery  
 **Cloud & DevOps:** AWS (SNS, SQS, S3), GCP (Pub/Sub, GCS, BigQuery), Kubernetes, Docker, Airflow, CircleCI  
-**Databases:** PostgreSQL, Redis, Google BigQuery  
+**Databases:** MySQL, Redis  
 **Tools & Platforms:** Git, Linux, Playwright
 
 ---
@@ -26,7 +26,7 @@ Backend engineer specializing in insurtech — 6+ years building Golang & Python
 ## Professional Experience
 
 ### **Tech Lead** | PasarPolis | Jakarta, Indonesia  
-*Jan 2026 – Present (10 months)*
+*Jan 2026 – Present*
 
 Team: squad of 3–5 engineers
 
@@ -80,32 +80,14 @@ Contributed to maintaining a number of products related to a school management p
 
 ## Personal Projects
 
-### **9Router** | [github.com/vianhanif/9router](https://github.com/vianhanif/9router)
-AI Router & Token Saver — connects 40+ AI providers & 100+ models with RTK token optimization (save 20-40% tokens), auto-fallback, and quota management. Deployed on npm, Docker, and GHCR. Active contributor & maintainer of upstream fork.
+**AI Router Ecosystem** — [9router](https://github.com/vianhanif/9router) · [9router-api](https://github.com/vianhanif/9router-api) · [9router-deploy](https://github.com/vianhanif/9router-deploy)
+AI router connecting 40+ providers & 100+ models with RTK token optimization (save 20–40%), auto-fallback, and quota management. Published on npm, Docker, GHCR; deployed via Cloudflare Tunnel + CI/CD on a self-hosted VPS.
 
-### **9Router API** | [github.com/vianhanif/9router-api](https://github.com/vianhanif/9router-api)
-Lightweight LLM API server (~100-150MB footprint) as an alternative to the full 9Router Next.js dashboard. Syncs with 9Router core releases.
+**Developer Tooling** — [git-review-cli](https://github.com/vianhanif/git-review-cli) · [kubectl-multi-logs](https://github.com/vianhanif/kubectl-multi-logs) · [opencode-tree](https://github.com/vianhanif/opencode-tree) · [opencode-session-viewer](https://github.com/vianhanif/opencode-session-viewer)
+CLIs for provider-agnostic MR review (PyPI), multi-pod Kubernetes log tailing, and isolated OpenCode agent environments (git worktree + tmux). Metadata inspection tools for session debugging.
 
-### **9Router Deploy** | [github.com/vianhanif/9router-deploy](https://github.com/vianhanif/9router-deploy)
-Production Docker Compose stack for self-hosting 9Router with Cloudflare Tunnel ingress and automated CI/CD deploys to Tencent Cloud VPS.
-
-### **git-review-cli** | [github.com/vianhanif/git-review-cli](https://github.com/vianhanif/git-review-cli)
-Provider-agnostic MR/PR review CLI for GitLab, GitHub, and Gitea. Integrated into internal development workflows. Available on PyPI.
-
-### **kubectl-multi-logs** | [github.com/vianhanif/kubectl-multi-logs](https://github.com/vianhanif/kubectl-multi-logs)
-Tail logs from multiple Kubernetes pods simultaneously with real-time streaming and Homebrew-style progress display. Used internally for platform debugging.
-
-### **opencode-tree** | [github.com/vianhanif/opencode-tree](https://github.com/vianhanif/opencode-tree)
-Isolated development environments via git worktree + tmux for OpenCode agent sessions — clean context switching without stashing or branch conflicts.
-
-### **opencode-session-viewer** | [github.com/vianhanif/opencode-session-viewer](https://github.com/vianhanif/opencode-session-viewer)
-CLI tool to inspect OpenCode session metadata from the local SQLite database. Built in Go.
-
-### **local-tunnel** | [github.com/vianhanif/local-tunnel](https://github.com/vianhanif/local-tunnel)
-Production-grade HTTPS tunnel for local AI model servers — expose your local models to the internet securely.
-
-### **mac-cleanup-go** | [github.com/vianhanif/mac-cleanup-go](https://github.com/vianhanif/mac-cleanup-go)
-macOS maintenance tool in Go for identifying performance bottlenecks and safely cleaning long-lived system cruft.
+**Infra & System Tools** — [local-tunnel](https://github.com/vianhanif/local-tunnel) · [mac-cleanup-go](https://github.com/vianhanif/mac-cleanup-go)
+Production-grade HTTPS tunnel for local AI model servers, and macOS maintenance CLI for identifying performance bottlenecks and system cleanup.
 
 ---
 
@@ -124,12 +106,6 @@ macOS maintenance tool in Go for identifying performance bottlenecks and safely 
 
 **SD Yaspen Tugu Ibu Depok** | Indonesia  
 *2000 – 2006*
-
----
-
-## Honors & Awards
-
-- **SarMag (Sarjana & Magister) Scholarship**
 
 ---
 
